@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="./img/logo.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>EXTech | Fluxograma</title>
+  </head>
+  <body>
+    <div id="box-account">
+      <div id="box-create">
+        <h1>Crie sua conta</h1>
+
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          placeholder="Digite seu nome"
+          id="create-name"
+        />
+        <span id="nome-span"></span>
+
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Ex: meuemail@gmail.com"
+          id="create-email"
+          required
+        />
+        <span id="email-span"></span>
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          placeholder="Digite sua senha"
+          id="create-senha"
+          required
+        />
+        <span id="senha-span"></span>
+
+        <label for="cartao">Cartão</label>
+        <input
+          type="text"
+          name="cartao"
+          placeholder="Número do cartão"
+          id="create-cartao"
+          required
+        />
+        <span id="cartao-span"></span>
+
+        <label for="endereco">Endereço</label>
+        <input
+          type="text"
+          name="endereco"
+          placeholder="Digite seu endereço"
+          id="create-endereco"
+          required
+        />
+        <span id="endereco-span"></span>
+
+        <button id="btn-create" class="btn">Criar conta</button>
+        <button id="switch-login" class="switch">Já tenho conta</button>
+      </div>
+
+      <div id="box-login">
+        <h1>Entrar na sua conta</h1>
+
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Ex: meuemail@gmail.com"
+          id="login-email"
+          required
+        />
+        <span id="email-span-login"></span>
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          placeholder="Digite sua senha"
+          id="login-senha"
+          required
+        />
+        <span id="senha-span-login"></span>
+
+        <button id="btn-login" class="btn">Entrar</button>
+        <button id="switch-create" class="switch">Não tenho conta</button>
+      </div>
+    </div>
+
+    <!-- ============== CODIGO UNIVERSAL HEADER ============== -->
+
+    <header>
+      <div id="hamburguer">
+        <button id="x-hamburguer" class="btn-hamburguer">
+          <img src="./img/x-symbol-svgrepo-com.svg" alt="X" />
+        </button>
+        <button id="liga-hamburguer" class="btn-hamburguer">
+          <img src="./img/hamburguer.svg" alt="" />
+        </button>
+      </div>
+      <div id="Logo">
+        <img src="./img/txtlogo.jpeg" alt="Logo" />
+      </div>
+
+      <div id="Barra-pesquisa">
+        <input
+          type="search"
+          class="form-pesquisa"
+          id="form-pesquisa"
+          placeholder="O que você procura?"
+        />
+        <button id="btn-pesquisar">🔍︎</button>
+      </div>
+
+      <div id="person">
+        <button id="btn-account">
+          <img src="./img/person.svg" alt="Conta" />
+        </button>
+
+        <button id="btn-account-x">
+          <img src="../img/x-symbol-svgrepo-com.svg" alt="Conta" />
+        </button>
+      </div>
+
+      <div id="carrinho">
+        <button id="btn-carrinho">
+          <img src="./img/carrinho.svg" alt="Carrinho" />
+          <h3>CARRINHO</h3>
+        </button>
+      </div>
+
+      <div id="insta">
+        <a
+          href="https://www.instagram.com/extech_loja_de_informatica?utm_source=qr&igsi=Y3F1eDZydWM4ZTgz"
+        >
+          <img src="./img/icone-instragam.svg" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <nav>
+      <ul id="lista-nav">
+        <li><a href="index.html" class="nava">Inicio</a></li>
+        <li><a href="Sobre.html" class="nava">Sobre</a></li>
+        <li><a href="Produtos.html">Produtos</a></li>
+        <li><a href="Contato.html" class="nava">Contato</a></li>
+        <li><a href="Fluxograma.html" class="nava">> Fluxograma <</a></li>
+        <li><a href="Equipe.html" class="nava">Equipe</a></li>
+        <li><a href="der.html" class="nava">Der/Mer</a></li>
+      </ul>
+    </nav>
+
+    <div id="menu">
+      <ul id="lista-menu">
+        <li><a href="index.html" class="menua">Inicio</a></li>
+        <li><a href="Sobre.html" class="menua">Sobre</a></li>
+        <li><a href="Produtos.html" class="menua">Produtos</a></li>
+        <li><a href="Contato.html" class="menua">Contato</a></li>
+        <li><a href="Fluxograma.html" class="menua">> Fluxograma <</a></li>
+        <li><a href="Equipe.html" class="menua">Equipe</a></li>
+        <li><a href="der.html" class="menua">Der/Mer</a></li>
+      </ul>
+    </div>
+
+    <!-- ============== CODIGO ABA FLUXOGRAMA ============== -->
+    <div id="hero-fluxogramas">
+      <img src="./img/fluSimples.jpg" alt="" id="hero-flu1" />
+      <img src="./img/fluDetalhado.png" alt="" id="hero-flu2" />
+    </div>
+
+    <main id="Fluxograma">
+      <div class="text-flu">
+        <h1>Fluxogramas:</h1>
+      </div>
+
+      <div class="FLU-Img">
+        <img src="./img/fluSimples.jpg" alt="" id="flu1" />
+        <img src="./img/fluDetalhado.png" alt="" id="flu2" />
+      </div>
+    </main>
+
+    <footer id="footer-flu">
+      <p>&copy; 2026 EXTech | Desenvolvido por alunos da Etec.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script>
+      if (window.innerWidth >= 769) {
+        const heroFlu1 = document.getElementById("hero-flu1");
+        const heroFlu2 = document.getElementById("hero-flu2");
+        const flu1 = document.getElementById("flu1");
+        const flu2 = document.getElementById("flu2");
+        const heroFluxogramas = document.getElementById("hero-fluxogramas");
+
+        flu1.addEventListener("click", () => {
+          heroFluxogramas.style.display = "flex";
+          heroFlu1.style.display = "block";
+          heroFlu2.style.display = "none";
+        });
+
+        flu2.addEventListener("click", () => {
+          heroFluxogramas.style.display = "flex";
+          heroFlu2.style.display = "block";
+          heroFlu1.style.display = "none";
+        });
+
+        heroFlu1.addEventListener("click", () => {
+          heroFluxogramas.style.display = "none";
+          heroFlu1.style.display = "none";
+        });
+
+        heroFlu2.addEventListener("click", () => {
+          heroFluxogramas.style.display = "none";
+          heroFlu2.style.display = "none";
+        });
+      }
+    </script>
+  </body>
+</html>

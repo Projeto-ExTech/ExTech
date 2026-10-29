@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/logo.jpeg" />
+    <title>EXTech | Equipe</title>
+  </head>
+  <body>
+    <div id="box-account">
+      <div id="box-create">
+        <h1>Crie sua conta</h1>
+
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          placeholder="Digite seu nome"
+          id="create-name"
+        />
+        <span id="nome-span"></span>
+
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Ex: meuemail@gmail.com"
+          id="create-email"
+          required
+        />
+        <span id="email-span"></span>
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          placeholder="Digite sua senha"
+          id="create-senha"
+          required
+        />
+        <span id="senha-span"></span>
+
+        <label for="cartao">Cartão</label>
+        <input
+          type="text"
+          name="cartao"
+          placeholder="Número do cartão"
+          id="create-cartao"
+          required
+        />
+        <span id="cartao-span"></span>
+
+        <label for="endereco">Endereço</label>
+        <input
+          type="text"
+          name="endereco"
+          placeholder="Digite seu endereço"
+          id="create-endereco"
+          required
+        />
+        <span id="endereco-span"></span>
+
+        <button id="btn-create" class="btn">Criar conta</button>
+        <button id="switch-login" class="switch">Já tenho conta</button>
+      </div>
+
+      <div id="box-login">
+        <h1>Entrar na sua conta</h1>
+
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Ex: meuemail@gmail.com"
+          id="login-email"
+          required
+        />
+        <span id="email-span-login"></span>
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          placeholder="Digite sua senha"
+          id="login-senha"
+          required
+        />
+        <span id="senha-span-login"></span>
+
+        <button id="btn-login" class="btn">Entrar</button>
+        <button id="switch-create" class="switch">Não tenho conta</button>
+      </div>
+    </div>
+
+    <!-- ============== CODIGO HEADER ============== -->
+
+    <header>
+      <div id="hamburguer">
+        <button id="x-hamburguer" class="btn-hamburguer">
+          <img src="./img/x-symbol-svgrepo-com.svg" alt="X" />
+        </button>
+        <button id="liga-hamburguer" class="btn-hamburguer">
+          <img src="./img/hamburguer.svg" alt="" />
+        </button>
+      </div>
+      <div id="Logo">
+        <img src="./img/txtlogo.jpeg" alt="Logo" />
+      </div>
+
+      <div id="Barra-pesquisa">
+        <input
+          type="search"
+          class="form-pesquisa"
+          id="form-pesquisa"
+          placeholder="O que você procura?"
+        />
+        <button id="btn-pesquisar">🔍︎</button>
+      </div>
+
+      <div id="person">
+        <button id="btn-account">
+          <img src="./img/person.svg" alt="Conta" />
+        </button>
+
+        <button id="btn-account-x">
+          <img src="../img/x-symbol-svgrepo-com.svg" alt="Conta" />
+        </button>
+      </div>
+
+      <div id="carrinho">
+        <button id="btn-carrinho">
+          <img src="./img/carrinho.svg" alt="Carrinho" />
+          <h3>CARRINHO</h3>
+        </button>
+      </div>
+
+      <div id="insta">
+        <a
+          href="https://www.instagram.com/extech_loja_de_informatica?utm_source=qr&igsi=Y3F1eDZydWM4ZTgz"
+        >
+          <img src="./img/icone-instragam.svg" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <nav>
+      <ul id="lista-nav">
+        <li><a href="index.html" class="nava">Inicio</a></li>
+        <li><a href="Sobre.html" class="nava">Sobre</a></li>
+        <li><a href="Produtos.html" class="nava">Produtos</a></li>
+        <li><a href="Contato.html" class="nava">Contato</a></li>
+        <li><a href="Fluxograma.html" class="nava">Fluxograma</a></li>
+        <li><a href="Equipe.html" class="nava">> Equipe <</a></li>
+        <li><a href="der.html" class="nava">Der/Mer</a></li>
+      </ul>
+    </nav>
+
+    <div id="menu">
+      <ul id="lista-menu">
+        <li><a href="index.html" class="menua">Inicio</a></li>
+        <li><a href="Sobre.html" class="menua">Sobre</a></li>
+        <li><a href="Produtos.html" class="menua">Produtos</a></li>
+        <li><a href="Contato.html" class="menua">Contato</a></li>
+        <li><a href="Fluxograma.html" class="menua">Fluxograma</a></li>
+        <li><a href="Equipe.html" class="menua">> Equipe <</a></li>
+        <li><a href="der.html" class="menua">Der/Mer</a></li>
+      </ul>
+    </div>
+
+    <!-- ============== CODIGO ABA EQUIPE ============== -->
+
+
+    <style>
+      .equipe-container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+      .equipe-titulo { text-align: center; margin-bottom: 35px; }
+      .equipe-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
+      .equipe-card { background: #000000; border-radius: 16px; padding: 20px; text-align: center; box-shadow: 0 5px 18px rgba(0,0,0,.12); transition: transform .2s, box-shadow .2s; }
+      .equipe-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,.18); }
+      .equipe-card img { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; }
+      .equipe-card h2 { margin: 8px 0; font-size: 1.35rem; }
+      .equipe-card p { margin: 0; line-height: 1.5; }
+      @media (max-width: 900px) { .equipe-cards { grid-template-columns: repeat(2, 1fr); } }
+      @media (max-width: 600px) { .equipe-cards { grid-template-columns: 1fr; } }
+    </style>
+    <main id="Equipe">
+      <section class="equipe-container">
+        <h1 class="equipe-titulo">Nossa Equipe</h1>
+        <div class="equipe-cards">
+          <div class="equipe-card"><img src="./img/equipe/luis.jpg" alt="Luis Miguel" /><h2>Luis Miguel</h2><p>Responsavel por html, principalmente a parte de inicio e sobre.</p></div>
+          <div class="equipe-card"><img src="./img/equipe/rafael.jpg" alt="Rafael Corrêa" /><h2>Rafael Correa</h2><p>Trabalhou principalmente com a parte de Banco de dados em geral.</p></div>
+          <div class="equipe-card"><img src="./img/equipe/eduardo.jpg" alt="Eduardo Nascimento" /><h2>Eduardo Nascimento</h2><p>Organizou a pagina de produtos e a navegação.</p></div>
+          <div class="equipe-card"><img src="./img/equipe/gustavo.jpg" alt="Gustavo Lima" /><h2>Gustavo Lima</h2><p>Desenvolveu o planejamento do fluxograma e a logo do site.</p></div>
+          <div class="equipe-card"><img src="./img/equipe/caua.jpg" alt="Cauã Pereira" /><h2>Cauã Pereira</h2><p>Responsavel pelas paginas contato e equipe.</p></div>
+          <div class="equipe-card"><img src="./img/equipe/marcos.jpg" alt="Marcos Leonardo" /><h2>Marcos Leonardo</h2><p>Responsavel principalmente pelo java, responsividade e repositório.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 EXTech | Desenvolvido por alunos da Etec.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

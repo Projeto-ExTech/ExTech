@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/logo.jpeg" />
+    <title>EXTech | Der</title>
+  </head>
+  <body>
+    <div id="box-account">
+      <div id="box-create">
+        <h1>Crie sua conta</h1>
+
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          placeholder="Digite seu nome"
+          id="create-name"
+        />
+        <span id="nome-span"></span>
+
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Ex: meuemail@gmail.com"
+          id="create-email"
+          required
+        />
+        <span id="email-span"></span>
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          placeholder="Digite sua senha"
+          id="create-senha"
+          required
+        />
+        <span id="senha-span"></span>
+
+        <label for="cartao">Cartão</label>
+        <input
+          type="text"
+          name="cartao"
+          placeholder="Número do cartão"
+          id="create-cartao"
+          required
+        />
+        <span id="cartao-span"></span>
+
+        <label for="endereco">Endereço</label>
+        <input
+          type="text"
+          name="endereco"
+          placeholder="Digite seu endereço"
+          id="create-endereco"
+          required
+        />
+        <span id="endereco-span"></span>
+
+        <button id="btn-create" class="btn">Criar conta</button>
+        <button id="switch-login" class="switch">Já tenho conta</button>
+      </div>
+
+      <div id="box-login">
+        <h1>Entrar na sua conta</h1>
+
+        <label for="email">E-mail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Ex: meuemail@gmail.com"
+          id="login-email"
+          required
+        />
+        <span id="email-span-login"></span>
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          placeholder="Digite sua senha"
+          id="login-senha"
+          required
+        />
+        <span id="senha-span-login"></span>
+
+        <button id="btn-login" class="btn">Entrar</button>
+        <button id="switch-create" class="switch">Não tenho conta</button>
+      </div>
+    </div>
+
+    <!-- ============== CODIGO UNIVERSAL HEADER ============== -->
+
+    <header>
+      <div id="hamburguer">
+        <button id="x-hamburguer" class="btn-hamburguer">
+          <img src="./img/x-symbol-svgrepo-com.svg" alt="X" />
+        </button>
+        <button id="liga-hamburguer" class="btn-hamburguer">
+          <img src="./img/hamburguer.svg" alt="" />
+        </button>
+      </div>
+      <div id="Logo">
+        <img src="./img/txtlogo.jpeg" alt="Logo" />
+      </div>
+
+      <div id="Barra-pesquisa">
+        <input
+          type="search"
+          class="form-pesquisa"
+          id="form-pesquisa"
+          placeholder="O que você procura?"
+        />
+        <button id="btn-pesquisar">🔍︎</button>
+      </div>
+
+      <div id="person">
+        <button id="btn-account">
+          <img src="./img/person.svg" alt="Conta" />
+        </button>
+
+        <button id="btn-account-x">
+          <img src="../img/x-symbol-svgrepo-com.svg" alt="Conta" />
+        </button>
+      </div>
+
+      <div id="carrinho">
+        <button id="btn-carrinho">
+          <img src="./img/carrinho.svg" alt="Carrinho" />
+          <h3>CARRINHO</h3>
+        </button>
+      </div>
+
+      <div id="insta">
+        <a
+          href="https://www.instagram.com/extech_loja_de_informatica?utm_source=qr&igsi=Y3F1eDZydWM4ZTgz"
+        >
+          <img src="./img/icone-instragam.svg" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <nav>
+      <ul id="lista-nav">
+        <li><a href="index.html" class="nava">Inicio</a></li>
+        <li><a href="Sobre.html" class="nava">Sobre</a></li>
+        <li><a href="Produtos.html" class="nava">Produtos</a></li>
+        <li><a href="Contato.html" class="nava">Contato</a></li>
+        <li><a href="Fluxograma.html" class="nava">Fluxograma</a></li>
+        <li><a href="Equipe.html" class="nava">Equipe</a></li>
+        <li><a href="der.html" class="nava">> Der/Mer <</a></li>
+      </ul>
+    </nav>
+
+    <div id="menu">
+      <ul id="lista-menu">
+        <li><a href="index.html" class="menua">Inicio</a></li>
+        <li><a href="Sobre.html" class="menua">Sobre</a></li>
+        <li><a href="Produtos.html" class="menua">Produtos</a></li>
+        <li><a href="Contato.html" class="menua">Contato</a></li>
+        <li><a href="Fluxograma.html" class="menua">Fluxograma</a></li>
+        <li><a href="Equipe.html" class="menua">Equipe</a></li>
+        <li><a href="der.html" class="menua">> Der/Mer <</a></li>
+      </ul>
+    </div>
+
+    <!-- ============== CODIGO ABA DER ============== -->
+
+    <div id="hero-brmodelo">
+      <img src="./img/der.png" alt="" id="hero-der" />
+      <img src="./img/mer.png" alt="" id="hero-mer" />
+    </div>
+
+    <main id="brmodelo">
+      <div id="der">
+        <h1>DER</h1>
+        <img src="./img/der.png" alt="" />
+      </div>
+      <div id="mer">
+        <h1>MER</h1>
+        <img src="./img/mer.png" alt="" />
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2026 EXTech | Desenvolvido por alunos da Etec.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script>
+      if (window.innerWidth >= 769) {
+        const heroDer = document.getElementById("hero-der");
+        const heroMer = document.getElementById("hero-mer");
+        const der = document.getElementById("der");
+        const mer = document.getElementById("mer");
+        const heroBrmodelo = document.getElementById("hero-brmodelo");
+
+        der.addEventListener("click", () => {
+          heroBrmodelo.style.display = "flex";
+          heroDer.style.display = "block";
+          heroMer.style.display = "none";
+        });
+
+        mer.addEventListener("click", () => {
+          heroBrmodelo.style.display = "flex";
+          heroMer.style.display = "block";
+          heroDer.style.display = "none";
+        });
+
+        heroDer.addEventListener("click", () => {
+          heroBrmodelo.style.display = "none";
+          heroDer.style.display = "none";
+        });
+
+        heroMer.addEventListener("click", () => {
+          heroBrmodelo.style.display = "none";
+          heroMer.style.display = "none";
+        });
+      }
+    </script>
+  </body>
+</html>
