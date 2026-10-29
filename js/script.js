@@ -1,7 +1,6 @@
 const ligaHamburguer = document.getElementById("liga-hamburguer");
 const xHamburguer = document.getElementById("x-hamburguer");
 const menuHamburguer = document.getElementById("menu");
-
 const btnCreate = document.getElementById("btn-create");
 const btnLogin = document.getElementById("btn-login");
 const createNome = document.getElementById("create-name");
